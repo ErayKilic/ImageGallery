@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 5px;
+    margin: 10px;
+}
+
+.panel {
+    width: 10%;
+    height: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.active:hover {
+    width: 40%;
+    transition: 1s;
+}
